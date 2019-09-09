@@ -1,0 +1,9 @@
+.home-container{
+  padding: 1em;
+  text-align: left;
+}
+.link-to-page{
+  padding: 1rem;
+  color: #ed0074;
+  text-decoration: underline;
+}
