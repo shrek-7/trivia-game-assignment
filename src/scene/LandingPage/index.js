@@ -23,7 +23,7 @@ export default function LandingPage() {
           home page
         </Link>
       </p>
-      <img className='landing-img' src={gif} />
+      <img alt='superhero gif' className='landing-img' src={gif} />
     </div>
   )
 }
