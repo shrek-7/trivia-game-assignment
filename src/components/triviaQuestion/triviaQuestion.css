@@ -1,0 +1,25 @@
+.trivia-question {
+  padding: 1.5rem;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-weight: bold;
+  text-align: left;
+}
+
+.trivia-options{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500
+}
+
+.trivia-options input, .trivia-options label {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.correct-answer {
+  color: #8bc326;
+  font-weight: bold;
+  background: beige;
+}

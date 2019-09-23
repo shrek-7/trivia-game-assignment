@@ -38,11 +38,11 @@ function App(props) {
     <div className="App">
       <LoadingBar className='App-loader'/>
       <div className='app-container'>
-        <Header name="Header title"/>
-        <main className='main-app-container flex'>
+        <Header name="hodlers Trivia"/>
+        <main className='main-app-container flex flex-center flex-align-center'>
             <Suspense fallback={<Loader />}>
               <Switch>
-                <Redirect exact from='/' to='/landing-page' />
+                <Redirect exact from='/' to='/bank-of-hodlers' />
                 <Route render={() => ( renderMainLayout() )}/>
               </Switch>
             </Suspense>

@@ -4,6 +4,8 @@ import React, {lazy} from 'react';
 const HomePage          =   lazy(()   =>   import('./scene/HomePage'));
 const LandingPage       =   lazy(()   =>   import('./scene/LandingPage'));
 
+const TriviaGame        =   lazy(()   =>   import('./scene/Quiz'));
+
 
 
 // add route.
@@ -16,6 +18,11 @@ const routes = (props) => [
   {
     path: '/landing-page',
     main: () => <LandingPage {...props}/>,
+    exact: true
+  },
+  {
+    path: '/bank-of-hodlers',
+    main: () => <TriviaGame {...props}/>,
     exact: true
   },
 ];

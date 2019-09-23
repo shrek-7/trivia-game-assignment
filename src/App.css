@@ -34,12 +34,13 @@
 
 .main-app-container {
   height: 100%;
+  background: #ecfeff;
 }
 .app-container{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #000;
+  /* background: #000; */
 }
 
 

@@ -1,0 +1,30 @@
+.trivia-container{
+  height: 80vh;
+  width: 100%;
+  font-family: RobotoRegular;
+  /* overflow: auto; */
+}
+.trivia__question-list{
+  overflow: overlay;
+  height: 90%;
+  box-sizing: border-box;
+  box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.2) inset;
+  padding: 0 15rem;
+}
+
+.trivia__submit{
+  padding: 15px 0px;
+}
+
+.trivia__submit button{
+  padding: 10px 25px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0px 10px 10px 0px;
+}
+
+button:hover{
+  background: #dfffb5;
+}
